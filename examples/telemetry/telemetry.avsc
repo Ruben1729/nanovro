@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "Telemetry",
+  "fields": [
+    {"name": "sequence", "type": "long"},
+    {"name": "temperature", "type": "float"},
+    {"name": "active", "type": "boolean"},
+    {"name": "label", "type": {"type": "string", "nanovro.max_size": 24}},
+    {"name": "samples", "type": {"type": "array", "items": "int", "nanovro.max_count": 16}}
+  ]
+}

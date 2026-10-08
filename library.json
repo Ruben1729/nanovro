@@ -1,0 +1,9 @@
+{
+  "name": "nanovro",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Heap-free, schema-generated Avro binary encoding for embedded C",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {"includeDir": "include", "srcDir": "src"}
+}

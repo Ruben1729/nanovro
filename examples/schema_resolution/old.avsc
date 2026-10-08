@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "Reading",
+  "fields": [
+    {"name": "sensor", "type": "int"},
+    {"name": "retired", "type": {"type": "string", "nanovro.max_size": 16}}
+  ]
+}

@@ -1,0 +1,15 @@
+/build/
+/cmake-build-*/
+/generated/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.o
+*.obj
+*.a
+*.lib
+.pio/
+.DS_Store
+Thumbs.db
+Desktop.ini

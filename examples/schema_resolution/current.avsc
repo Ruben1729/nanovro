@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "Reading",
+  "fields": [
+    {"name": "calibration", "type": "float", "default": 1.0},
+    {"name": "sensor_id", "aliases": ["sensor"], "type": "long"}
+  ]
+}
